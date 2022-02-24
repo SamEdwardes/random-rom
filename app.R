@@ -82,8 +82,8 @@ card <- function(movement_name, img_url, video_url) {
           <img src="{img_url}" class="card-img-top" alt="{movement_name}">
           <div class="card-body">
             <p class="card-title"><b>{movement_name}</b></p>
-            <div>👀<a href="{google_url}" class="card-link" target="_blank">Google search movement</a></div>
-            <div class="card-text">🍿{video_div}</div>
+            <div>👀 <a href="{google_url}" class="card-link" target="_blank">Google search movement</a></div>
+            <div class="card-text">🍿 {video_div}</div>
           </div>
         </div>
       </div>
