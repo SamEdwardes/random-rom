@@ -110,7 +110,7 @@ ui <- navbarPage(
     "Home",
     sidebarLayout(
       sidebarPanel(
-        numericInput("n_movements", "Number of movements:", 3, min = 1, max = 20, step = 0.5),
+        numericInput("n_movements", "Number of movements:", 3, min = 1, max = 20, step = 1),
         actionButton("generate_movements", "Lets Move!", class = "btn-block btn-primary")
       ),
       mainPanel(
